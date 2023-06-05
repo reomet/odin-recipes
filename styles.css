@@ -1,31 +1,54 @@
 body {
-    background-color: burlywood;
+    background: linear-gradient(180deg,#ffafbd, #ffc3a0);
+    font-family: 'Times New Roman', Times, serif;
+    height: 120vh;
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 h1 {
+    color: #ffafbd;
+    background-color: #fcf6f5;
     text-align: center;
-    color: rgb(242, 121, 100);
-    font-family: 'Times New Roman', Times, serif;
+    max-width: 300px;
+    margin: 5px auto;
 }
 
 .pic {
-    display: block;
     margin: auto;
-    max-width: max-content;
+    display: block;
 }
 
 h4 {
+    color: #ffafbd;
+    background-color: #fcf6f5;
     text-align: center;
-    color: rgb(242, 121, 100);
-    font-family: 'Times New Roman', Times, serif
+    margin: 5px auto;
+    max-width: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 0;
 }
 
-#other {
-    text-align: center;
+.text a {
+    color: rgb(67, 15, 15);
+    text-decoration: none;
 }
 
-.text {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 5px;
+a:hover {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(230, 213, 188, 0.397);
+}
+
+hr {
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 10px 1px black;
+}
+
+hr:after {
+    content: "00a0";
 }

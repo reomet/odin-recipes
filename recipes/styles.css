@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(180deg,#ffafbd, #ffc3a0);
+    font-family: 'Times New Roman', Times, serif;
+    height: 180vh;
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+ul li, ol li{
+    text-align: justify;
+    width: 50%;
+    margin: 10px auto;
+}
+
+h2, h3{
+    text-align: justify;
+    width: 50%;
+    margin: 10px auto;
+}
+
+p {
+    font-weight: 600;
+}
